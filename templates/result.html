@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+</head>
+<body>
+  <h2><p style="text-align:center;">Diabetes prediction</p></h2>
+  <h2>Result:</h2>
+  {% if prediction == 1%}
+     <h2 style="color:red;">Chances of having diabetes is more, please consult a Doctor</h2>
+  {% elif prediction == 0%}
+     <h2 style="color: blue;">No worries!!! you don't have diabetes</h2>
+  {% endif %}
+</body>
+</html>
